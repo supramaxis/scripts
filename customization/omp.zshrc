@@ -59,7 +59,6 @@ alias ols='/usr/bin/ls'
 alias vim='nvim'
 alias c='clear'
 alias rmd='rm -r'
-alias port='ss -tunelp | grep '
 
 lsz() {
     if [ "$#" -eq 0 ]; then

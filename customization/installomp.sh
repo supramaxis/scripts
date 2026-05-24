@@ -88,7 +88,7 @@ fi
 
 # Install Oh My Posh globally
 log "${GREEN}Downloading Oh My Posh${RESET}"
-curl -s https://ohmyposh.dev/install.sh | bash -s
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d /usr/local/bin
 
 # Install fzf as the real user, not root
 log "${GREEN}Cloning and installing fzf for ${USER_NAME}${RESET}"
